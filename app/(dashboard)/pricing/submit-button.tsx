@@ -16,11 +16,11 @@ export function SubmitButton() {
       {pending ? (
         <>
           <Loader2 className="animate-spin mr-2 h-4 w-4" />
-          Loading...
+          Laden...
         </>
       ) : (
         <>
-          Get Started
+          Start Premium
           <ArrowRight className="ml-2 h-4 w-4" />
         </>
       )}
